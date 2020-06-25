@@ -1,0 +1,51 @@
+/* FAQ media css */
+
+@media screen and (max-width: 801px){
+
+  .meau_bar .float_1{width:25%;}
+  .left_txt_1{width:30%;}
+  .left_txt_2{width:30%;}
+  .left_txt_3{width:30%;}
+
+  .ingredient_box .box{float:none; width:40%; margin:0 auto 40px;}
+  .input-number{width:40px;}
+
+}
+
+@media screen and (max-width:938px){
+
+  .meau_bar .float_1{width:30%;}
+  .ingredient .ingredient_box img{width:80%;}
+
+  .meau_img {width:100%; height:auto; overflow:hidden;}
+  .meau_img .left{width:80%; height:auto; margin:auto; display:block; float:none;}
+  .right{width:100%;}
+
+  .txt_box{padding:25px 0;}
+  .bottom_txt{displa-y:block; width:80%; height:auto; margin:auto; padding:50px 0;}
+  .menu_box .menu_box_detail .menu_box_left{width:100%; display:block;}
+  .menu_box .menu_box_detail .menu_box_right{width:100%; display:block;}
+
+  .img_txt .img_txt_box{width:90%; height:auto; display:block; margin:auto;}
+  .img_txt .img_txt_box .img_txt_1{width:30%; height:auto}
+  .img_txt .img_txt_box .img_txt_1 p:nth-child(1){font-size:18px; font-weight:400;}
+  .img_txt .img_txt_box .img_txt_1 p:nth-child(3){width:90%; margin:auto; font-size:16px; font-weight:200;}
+  .img_txt .img_txt_box .img_txt_1 p:last-child{font-size:16px; font-weight:300; color:#666;}
+
+  .img_txt .img_txt_box .img_txt_2{width:36%; height:auto; padding-left:25px;}
+  .img_txt .img_txt_box .img_txt_2 p:nth-child(1){font-size:18px; font-weight:400;}
+  .img_txt .img_txt_box .img_txt_2 p:nth-child(3){width:90%; margin:auto; font-size:16px; font-weight:200;}
+  .img_txt .img_txt_box .img_txt_2 p:last-child{font-size:16px; font-weight:300; color:#666;}
+
+  .img_txt .img_txt_box .img_txt_3{width:33%; height:auto}
+  .img_txt .img_txt_box .img_txt_3 p:nth-child(1){font-size:18px; font-weight:400;}
+  .img_txt .img_txt_box .img_txt_3 p:nth-child(3){width:90%; margin:auto; font-size:16px; font-weight:200;}
+  .img_txt .img_txt_box .img_txt_3 p:last-child{font-size:16px; font-weight:300; color:#666;}
+
+  .event_txt .event_txt_box{width:90%;}
+  .button_box_3{width:30%;}
+  .button_last_box{padding:50px 0 50px 0;}
+
+
+
+}

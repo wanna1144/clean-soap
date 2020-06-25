@@ -1,0 +1,114 @@
+*{font-family: 'Noto Sans KR'}
+
+.on{background:#c6dfe5;}
+
+/* main image section style */
+.main-image{width:100%; height:auto; margin-bottom:50px;}
+.main-image .main{width:100%; height:auto; position:relative;}
+.main-image .main img{width:100%; height:auto;}
+.main-image .main .main-ad{position:absolute; top:50%; left:20%; transform:translateY(-50%);}
+.main-image .main .main-ad h2{font-size:40px; font-weight:400; padding-bottom:20px;}
+.main-image .main .main-ad h3{font-family:'include'; font-size:40px;padding-bottom:20px; color:#6f9da7;}
+.main-image .main .main-ad p{font-family:'Spoqa Han Sans'; font-size:28px;}
+
+/* sub main section style */
+.sub-main{width:100%; height:auto; margin-bottom:50px;}
+
+.m_tab{display:none;}
+.m_tab .tab_con{border:1px solid #c6dfe5;}
+
+.tab_gnb{width:100%; height:auto; margin-bottom:10px;}
+.tab_gnb li{float:left; text-align:center; box-sizing:border-box; padding:20px 0; border:1px solid #c6dfe5; font-family:'Noto Sans'; font-size:23px; cursor:pointer;}
+.tab_gnb li:nth-child(1){width:50%;}
+.tab_gnb li:nth-child(2){width:50%;}
+.tab_cont{border:1px solid #c6dfe5;}
+.tab_cont .tab_img{float:left; width:50%; height:auto;}
+.tab_cont .tab_img.point{display:none;}
+.tab_cont .tab_img img{width:100%; padding:20px; box-sizing:border-box;}
+.tab_cont .tab_img .m_ex{display:none;}
+
+.tab .tab_cont .tab_ex{width:50%; float:right; box-sizing:border-box; padding:110px 50px 0 50px;}
+.tab .tab_cont .tab_ex h3{font-size:32px; font-family:'Noto Sans'; padding-bottom:15px;}
+.tab .tab_cont .tab_ex p{font-size:30px; font-family:'Spoqa Han Sans'; padding-bottom:10px;}
+.tab .tab_cont .tab_ex em{display:block; font-style:normal; font-size:17px; padding-bottom:20px; line-height: 22px;}
+.tab .tab_cont .tab_ex button{border:0; outline:0; background:#c6dfe5; box-sizing:border-box; padding:12px 40px; font-size:18px; font-family:'Spoqa Han Sans'; cursor:pointer;}
+
+.m_tab .tab_con .tab_img img{width:100%; padding:20px; box-sizing:border-box;}
+.m_tab .tab_con .tab_img{float:left; width:50%; height:auto;}
+
+/* best item section style */
+.main-best{width:100%; height:auto; margin-bottom:70px;}
+.main-best .best-list{width:32%; height:auto; margin-right:2%; float:left;}
+.main-best .best-list:last-child{margin-right:0;}
+.main-best .best-list img{width:100%; height:auto; margin-bottom:20px;}
+.main-best .best-list .best-name{width:100%; height:auto; text-align:center;}
+.best-name em{display:block; font-style:normal; width:100%; font-size:20px; padding-bottom:5px; margin-bottom:10px; border-bottom:1px solid #e0e0e0; color:#111;}
+.best-name p{display:block; font-size:14px; padding-bottom:10px; line-height:20px;}
+.best-name i{display:block; font-style:normal; font-size:18px; font-weight:bold;}
+
+/* main event section style */
+.main-event{width:100%; height:auto; margin-bottom:70px; position:relative;}
+.main-event img{width:100%; height:auto;}
+.main-event .event_ex{width:100%; margin:auto; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center;}
+.main-event .event_ex h1{font-size:40px; font-weight:normal; padding-bottom:30px; font-family:'Spoqa Han Sans';}
+.main-event .event_ex span{font-size:40px; font-weight:bold;}
+.main-event .event_ex em{font-style:normal; font-size:25px; font-family:'Spoqa Han Sans';}
+
+/* new item section style */
+.main-new{width:100%; height:auto; margin-bottom:70px;}
+.main-new .new-list{width:32%; height:auto; margin-right:2%; float:left;}
+.main-new .new-list:last-child{margin-right:0;}
+.main-new .new-list img{width:100%; height:auto; margin-bottom:20px;}
+.main-new .new-list .new-name{width:100%; height:auto; text-align:center;}
+.new-name em{display:block; font-style:normal; width:100%; font-size:20px; padding-bottom:5px; margin-bottom:10px; border-bottom:1px solid #e0e0e0; color:#111;}
+.new-name p{display:block; font-size:14px; padding-bottom:10px; line-height:20px;}
+.new-name i{display:block; font-style:normal; font-size:18px; font-weight:bold;}
+
+/* main brand section style */
+.main-brand{margin-bottom:30px; width:100%; height:auto;}
+.main-brand .left{width:40%; margin-right:2%; height:auto; float:left;}
+.main-brand .left h2{font-size:22px; font-family:'include'; color:#6f9da7; padding:20px 0;}
+.main-brand .left em{font-style:normal; font-size:30px; font-family:'Spoqa Han Sans'; display:block; padding:10px 0;}
+.main-brand .left p{display:block; padding:10px 0; line-height:22px; font-size:17px;}
+.main-brand .left button{background:#c6dfe5; outline:0; border:0; box-sizing:border-box; padding:12px 40px; margin-top:10px; font-size:18px; cursor:pointer;}
+.main-brand .right{width:58%; height:auto; float:right; padding-top:20px}
+.main-brand .right img{width:100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

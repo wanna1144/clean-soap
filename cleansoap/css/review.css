@@ -1,0 +1,67 @@
+* { font-family: 'Noto Sans KR', sans-serif; }
+.line_bold{width:100%; border-bottom:2px solid #333;}
+
+.review_sec{width:100%; height:auto; overflow:hidden;}
+.review_sec .txt{width:100%; height:auto; display:block;}
+.review_sec .txt h2{font-size:30px; text-align:center; font-weight:normal; padding:50px 0;}
+.review_box{width:100%; height:auto; display:block; float:left; border-bottom:1px solid #e0e0e0;}
+.review_box .img_box{width:15%; height:auto; display:inline-block; box-sizing:border-box; padding:20px; float:left;}
+.review_box .img_box img{width:100%; height:auto; display:block;}
+.review_box .title_box{float:left; width:25%; height:auto; display:inline-block; box-sizing:border-box;}
+.review_box .title_box p{font-size:18px;}
+.review_box .title_box .fa{font-size:15px;}
+.review_box .title_box span{font-size:14px; color:#666; cursor:pointer;}
+
+.review_box .title_box .tit_up{width:100%; height:auto; display:block; padding-top:30px; line-height:1.5;}
+.review_box .title_box .tit_down{width:100%; height:auto; display:block; padding-top:48px;}
+.review_box .name_box{width:33%; height:auto; display:block; box-sizing:border-box; float:left; padding:80px 0;}
+.review_box .name_box p{text-align:right; font-size:18px;}
+.review_box .year_box{width:25%; height:auto; float:left; box-sizing:border-box; padding:80px 0;}
+.review_box .year_box p{text-align:right; font-size:18px;}
+
+
+.number_box{width:100%; height:auto; overflow:hidden; padding:30px 0;}
+.number_box .num_box{width:55%; margin:auto; height:auto; display:block; float:right;}
+.number_box p{width:3%; height:auto; box-sizing:border-box; float:left; text-align:center;}
+
+
+/* review media css */
+
+@media screen and (max-width:1180px){
+
+  .review_box .img_box{width:14%; height:auto;}
+  .tit_up{ padding-top:15px;}
+  .review_box .title_box .tit_down{padding-top:22px;}
+
+}
+
+@media screen and (max-width:1090px){
+
+  .review_box .title_box .tit_down{padding-top:22px;}
+
+}
+
+@media screen and (max-width:970px){
+
+  .review_box .img_box{width:17%;}
+  .review_box .title_box p{font-size:16px;}
+  .review_box .name_box p{font-size:14px;}
+  .review_box .year_box p{font-size:14px;}
+}
+
+@media screen and (max-width:780px){
+
+  .review_box{padding-bottom:20px;}
+  .review_box .img_box{width:100%; height:auto; padding:20px 0 10px 0;}
+  .review_box .img_box img{width:25%; height:auto; margin:auto; display:block;}
+  .review_box .title_box{width:100%; height:auto; display:block; padding-bottom:15px;}
+  .review_box .title_box .tit_up{width:33.33%; height:auto; display:block; box-sizing:border-box; margin:auto; padding-top:0;}
+  .review_box .title_box .tit_up:nth-child(1) p{text-align:center; font-size:22px; font-weight:400;}
+  .star{width:100%; height:auto; text-align:center;}
+  .review_box .title_box .tit_up .star p{font-size:15px;}
+  .review_box .title_box .tit_down{width:100%; height:auto; display:inline-block; box-sizing:border-box; text-align:center;}
+  .review_box .title_box p{font-size:18px; font-weight:300;}
+  .review_box .name_box{width:50%; text-align:center; float:none; overflow:hidden; padding:15px 0;}
+  .review_box .year_box{width:57%; float:none; overflow:hidden; padding:10px 0;}
+
+}

@@ -1,0 +1,82 @@
+*{font-family: 'Spoqa Han Sans'}
+.wrap{width:100%; height:auto; overflow:hidden;}
+.clear:after{clear:both; display:block; content:'';}
+.center{width:100%; max-width:1300px; margin:auto; height:auto;  box-sizing:border-box; padding:0 20px 0;}
+.m-color{background:#c6dfe5;}
+.tit{font-size:32px; font-family:'Noto Sans'; padding:20px 0;}
+/* login section style */
+.login{width:100%; height:auto;}
+.login .login_list{width:80%; height:auto; float:right; padding:10px 0;}
+.login .login_list li{float:right; text-align:center; width:10%;}
+.login .login_list li a{font-size:12px; color:#222; display:block; border-left:1px solid #e0e0e0;  font-family: 'Spoqa Han Sans'}
+.login .login_list li:last-child a{border-left:0;}
+
+/* header section style  */
+header h2{display:none;}
+header .logo{width:20%; height:auto; display:block; float:left; margin-bottom:10px;}
+header .logo img{width:100%; height:auto;}
+header .gnb{width:50%; height:auto; float:left; margin-left:30px;}
+header .gnb>li{float:left; height:auto; text-align:center; position:relative; box-sizing:border-box;}
+header .gnb>li:nth-child(1){width:30%;}
+header .gnb>li:nth-child(2){width:25%;}
+header .gnb>li:nth-child(3){width:20%;}
+header .gnb>li:nth-child(4){width:25%;}
+/* header .gnb>li:nth-child(5){width:20%;} */
+header .gnb>li>a{display:block; color:#666; font-family:'Noto Sans'; box-sizing:border-box; padding:40px 0 25px; font-size:18px;}
+
+header .gnb>li:hover> .sub_gnb{border-top:2px solid #6f9da7;}
+
+header .gnb .sub_gnb{width:100%; height:200px; position:absolute;z-index:100; display:none; padding-top:4px; background:#fff; box-sizing:border-box; border-top:2px solid #fff;}
+header .gnb .sub_gnb>li{width:100%; height:auto;}
+header .gnb .sub_gnb>li>a{width:100%; height:auto; color:#222; line-height:2; font-family: 'Spoqa Han Sans'}
+
+header .gnb .sub_gnb>li:hover>a{_border-bottom:1px solid #6f9da7; color:#6f9da7;}
+
+header .search_box{width:20%; height:auto; float:right; margin-top:40px;}
+header .search_box input{width:80%;}
+header .search_box .fa-search{font-size:18px; color:#222; padding-left:5px;}
+
+header .mobile{display:none;}
+
+header.small{position:fixed; z-index:50; background:#fff; width:100%;}
+header.small .login{display:none;}
+header.small .logo{margin:10px 0;}
+
+.m_menu_back{display:none;}
+.m_menu{display:none;}
+
+/* footer section style */
+footer{height:300px; background:#e4eff2;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

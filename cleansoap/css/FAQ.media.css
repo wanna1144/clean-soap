@@ -1,0 +1,57 @@
+/* FAQ media css */
+
+@media screen and (max-width:910px){
+
+  .faq_button_detail{width:20%; padding:10px 0;}
+
+}
+
+
+
+@media screen and (max-width:627px){
+
+  .meau_bar{width:100%; height:auto; display:block; float:right; box-sizing:border-box;}
+
+
+}
+
+@media screen and (max-width:615px){
+
+  .faq_button_detail:nth-child(1) {width:25%;}
+  .faq_button_detail:nth-child(2) {width:25%;}
+  .faq_button_detail:nth-child(3) {width:25%;}
+
+}
+
+@media screen and (max-width:670px){
+
+  .meau_bar{width:100%; height:auto; display:block; float:right; box-sizing:border-box;}
+  .meau_bar .float_1{width:25%; display:inline-block;}
+
+  .faq_button_box{width:80%; height:auto; margin:auto;}
+  .faq_button_detail{width:30%; padding:10px 0;}
+
+  .sec_detail_txt .txt_top{overflow:hidden;}
+  .sec_detail_txt .txt_top p:nth-child(1){display:inline-block; width:5%;}
+  .sec_detail_txt .txt_top p:nth-child(2){margin-right:0; width:85%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- */

@@ -1,0 +1,92 @@
+*{font-family: 'Noto Sans KR'}
+.mypage_sec{width:100%; height:auto; margin-bottom:70px;}
+.mypage_sec .sub_tit{width:100%; height:auto; margin:50px 0;}
+.mypage_sec .sub_tit h2{font-size:35px; text-align:center;}
+
+.my_info{width:100%; height:auto; border:2px solid #6f9da7; padding:50px 35px 50px 55px; box-sizing:border-box; margin-bottom:60px;}
+.my_info .my_con>div{float:left;}
+.my_con .m_text{width:32%; border-right:1px solid #e0e0e0; box-sizing:border-box; line-height:1.5;}
+.m_text p{}
+.m_text span{}
+.m_text em{font-style:normal; font-weight:bold; color:#2E6671;}
+.m_text button{display:block; margin-top:20px; background:#6f9da7; color:#fff; border:0;  outline:0; padding:10px 25px;}
+.my_con .m_img{width:62%; margin-left:6%; padding-top:15px;}
+
+.my_info .m_img>div{float:left; width:25%;}
+.m_img .float .img{float:left;}
+.m_img .float .text{float:left; padding:11px 0 0 10px;}
+.m_img .number{padding-left:35px; padding-top:15px;}
+
+.my_order{width:100%; height:auto; border:2px solid #6f9da7;}
+.my_order .up{width:100%; height:auto; padding:6px 0; background:#6f9da7;}
+.my_order .up h3{color:#fff; padding-left:10px;}
+.my_order .down{padding:40px 0;}
+.my_order .down>div{float:left; width:33.33%; text-align:center; border-right:1px solid #e0e0e0; box-sizing:border-box; padding:10px 0;}
+.my_order .down>div:last-child{border-right:0;}
+.my_order .down>div p{padding-bottom:20px;}
+
+
+/* media query style */
+@media screen and (max-width:1025px){
+
+  .my_con .m_img{padding-top:0;}
+  .m_img .float .img{float:none; text-align:center;}
+  .m_img .float .img img{text-align:center;}
+  .m_img .float .text{float:none; display:block; padding:15px 0 0 0; text-align:center;}
+  .m_img .number{padding:15px 0 0 0; text-align:center;}
+
+}
+
+@media screen and (max-width:960px){
+
+  .my_info .my_con>div:nth-child(1){width:100%; float:none; border-right:0; border-bottom:1px solid #e0e0e0; padding-bottom:30px;}
+  .m_text .txt{float:left;}
+  .m_text button{float:left; margin:10px 0 0 30px; padding:10px 25px;}
+  .my_con .m_img{margin-left:0; margin-top: 30px; width:100%;}
+
+
+}
+
+@media screen and (max-width:769px){
+
+  .my_info .m_img>div{width:50%;}
+  .coupon{padding-bottom:60px;}
+  .point{padding-bottom:60px;}
+
+}
+
+@media screen and (max-width:570px){
+
+  .my_info{padding:50px 35px;}
+  .m_text button{float:none; width:100%; margin-left:0; font-size:14px;}
+  .m_text .txt{margin-bottom:20px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

@@ -1,0 +1,52 @@
+ * { font-family: 'NanumBarunGothic'; }
+
+.sec_top{width:100%; height:auto; margin-top:55px; }
+.bar_box{width:80%; margin:auto; display:block; height:auto;}
+.line{width:80%; margin:auto;height:auto; border-bottom:1px solid #e0e0e0; padding-top:50px;}
+.buttom{margin-bottom:200px; width:100%; height:auto; outline:0; box-sizing:border-box; display:block;}
+.meau_bar{width:100%; height:auto; display:block; float:right; border-bottom:1px solid #e0e0e0; padding:20px; margin-bottom:55px;}
+.meau_bar .float_1{float:right; display:block; width:15%; height:auto; }
+.meau_bar .float_1 li{display:inline-block;}
+.meau_bar .float_1 li a{font-size:16px; color:#333;}
+
+.bar_txt{width:100%; height:auto; overflow:hidden; padding-top:50px;}
+.bar_txt .bar_txt_right{width:100%; height:auto; display:block;}
+.bar_txt .bar_txt_right p:nth-child(1){font-size:24px; font-weight:bold; line-height:2; color:#333;}
+.bar_txt .bar_txt_right p:nth-child(2){font-size:20px; font-weight:400; color:#333;}
+
+.faq_button{width:100%; height:auto; overflow:hidden;}
+.faq_button .faq_button_box{width:100%; height:auto; display:block; float:left; margin-top:20px; border-bottom:1px solid #e0e0e0; padding-bottom:30px;}
+.faq_button_detail{width:15%; height:auto; display:inline-block; background:#c6dfe5; float:left; margin-right:10px; padding:10px 10px; text-align:center; border-radius:3px; cursor:pointer;}
+.faq_button_detail span{font-size:1em; color:#60878D; font-weight:400;}
+.faq_button_detail span a{color:#60878D;}
+
+.sec_box{width:100%; height:auto; overflow:hidden;}
+.sec_box .sec_detail{width:100%; margin:auto; height:auto; display:block; margin-top:50px;}
+.sec_box .sec_detail h2{text-align:center; font-size:2em; font-weight:600; color:#444; margin-bottom:1em;}
+
+.sec_detail_txt{width:100%; height:auto; overflow:hidden;}
+.sec_detail_txt .txt_top{width:80%; margin:auto; height:auto; display:block;}
+.sec_detail_txt .txt_top p{ display:block; float:left; display:inline-block; font-size:22px; font-weight:bold; color:#444; margin-right:10px;}
+.sec_detail_txt .txt_bottom{width:80%; margin:auto; height:auto; display:block; box-sizing:border-box; margin-top:30px;}
+.sec_detail_txt .txt_bottom p{width:100%; height:auto; display:block; line-height:1.5;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- */

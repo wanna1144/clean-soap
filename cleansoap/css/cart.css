@@ -1,0 +1,161 @@
+*{font-family: 'Noto Sans KR'}
+
+.cart_sec{width:100%; height:auto; margin-bottom:70px;}
+.cart_sec .cart{width:100%; height:auto;}
+.cart_sec .cart h2{text-align:center; font-size:30px; margin:50px 0;}
+
+.cart{margin-bottom:30px;}
+
+.cart_list{width:100%; height:auto; border-top:2px solid #222; display:flex; align-items: center;}
+.cart_list .pro_list{border-bottom:1px solid #e0e0e0;}
+.cart_list .list{display:flex; align-items: center; justify-content: center; text-align:center;}
+
+.list{width:85%; float:left;}
+.c_btn{width:15%; float:left; text-align:center; padding-top:12%;}
+.c_btn a{color:#333; font-size:14px; border:1px solid #e0e0e0; padding:10px 22px;}
+
+.list .checkbox{width:10%; float:left;}
+.list .sum{width:90%; float:left;}
+.list .sum .sum_up{width:50%; float:left; display:flex; align-items: center;}
+.list .sum .sum_up .img{width:60%; float:left;}
+.list .sum .img img{width:100%; box-sizing:border-box; padding:5% 0;}
+.list .sum .product_name{width:40%; float:left; text-align:center;}
+.list .sum .price{width:50%; float:left; height:100%; padding-top:14.5%;}
+
+.price>ul{width:100%; display: flex; align-items: center; justify-content: center;}
+.price>ul>li{float:left; padding-right:25px; text-align:center;}
+
+
+/* input number style */
+.input-number{
+  width: 40px;
+  padding: 0 3px;
+  vertical-align: top;
+  text-align: center;
+  outline: none;
+}
+
+.input-number,
+.input-number-decrement,
+.input-number-increment{
+  border: 1px solid #ccc;
+  height: 40px;
+  user-select: none;
+}
+
+.input-number-decrement,
+.input-number-increment{
+  display: inline-block;
+  width: 35px;
+  line-height: 38px;
+  background: #fff;
+  color: #444;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-number-decrement{
+  border-right: none;
+  /* border-radius: 4px 0 0 4px; */
+}
+
+.input-number-increment{
+  border-left: none;
+  /* border-radius: 0 4px 4px 0; */
+}
+
+.qua_input{width:100%; display:table-cell; vertical-align:middle;}
+.point{text-align:center; height:200px;}
+.point .point_num{width:100%;display:table!important; height:200px;}
+.point i{font-style:normal; font-weight:bold; font-size:16px; display:table-cell; vertical-align:middle;}
+.price{text-align:center; height:200px;}
+.price .price_num{width:100%;display:table!important; height:200px;}
+.price i{font-style:normal; font-weight:bold; font-size:16px; vertical-align:middle;}
+
+.total{border:10px solid #f5f5f5; padding-top:40px; height:120px;}
+.total .inTotal{width:100%; position:relative; text-align:center;}
+.total .inTotal li.num{float:left; width:33.33%;}
+.total .inTotal li.num span{font-size:14px; display:inline-block; line-height:15px;}
+.total .inTotal li.num p{font-size:24px; line-height:1.2;}
+.total .inTotal li.num p strong{font-size:24px; line-height:1.2;}
+.total .inTotal li.plus{position:absolute; top:10px; left:31%; vertical-align:top;}
+.total .inTotal li.equal{position:absolute; top:10px; right:31%; vertical-align:top;}
+
+.total .inText{width:100%; padding-top:30px; text-align:center; overflow:hidden;}
+.total .inText p{font-size:14px; line-height:1.4; padding:0 20px; color:#777;}
+
+.btn{width:100%; margin-top:40px; text-align:center;}
+.btn a{display:inline-block; font-size:16px; padding:0 45px; text-align:center; margin-left:10px; line-height:50px;}
+.btn .choice{margin-left:0; border:2px solid #c6dfe5; color:#111;}
+.btn .all{border:2px solid #c6dfe5; color:#111; background:#c6dfe5;}
+
+
+
+/* media query style */
+@media screen and (max-width:1197px){
+
+  .list .sum .sum_up{width:100%;}
+  .list .sum .sum_up .img{width:45%; margin-right:4%;}
+  .list .sum .sum_up .img img{width:100%; padding:30px; box-sizing:border-box;}
+  .list .sum .sum_up .product_name{width:51%; text-align:left;}
+  .list .sum .price{width:100%; float:none; display:block; margin:20px 0;}
+
+  .c_btn{padding-top:17%;}
+
+  .price>ul>li{font-size:20px;}
+
+  .input-number-decrement,
+  .input-number-increment{width:60px;}
+  .input-number{width:60px;}
+
+}
+
+@media screen and (max-width:769px){
+
+  .price>ul>li{font-size:14px; padding-right:10px;}
+  .input-number-decrement,
+  .input-number-increment{width:25px;}
+  .input-number{width:25px;}
+
+  .price>ul>.equal_img>img{width:16px;}
+  .price>ul>.multi_img>img{width:16px;}
+
+  .list .sum{width:85%;}
+  .list .sum .sum_up .img img{padding:15px;}
+  .list .sum .sum_up .product_name p{font-size:14px;}
+
+  .c_btn{width:15%;}
+  .c_btn a{padding:6px 17px;}
+
+  .total{height:auto;}
+  .total .inTotal li.num{width:50%;}
+  .total .inTotal li span{font-size:12px;}
+  .total .inTotal li p{font-size:18px;}
+  .total .inTotal li.plus{left:48%;}
+  .total .inTotal li.plus img{width:16px;}
+  .total .inTotal li.equal{left:48%; top:60px; right:auto;}
+  .total .inTotal li.equal img{width:16px;}
+  .total .inTotal li.total_w{width:100%; margin-top:45px;}
+  .total .inText p{font-size:12px; padding-bottom:20px;}
+
+  .btn a{font-size:13px; padding:0 20px; line-height:40px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
